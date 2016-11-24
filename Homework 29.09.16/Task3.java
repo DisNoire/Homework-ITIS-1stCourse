@@ -1,9 +1,7 @@
-
 import java.util.Arrays;
-
 import java.util.Random;
 
-public class Main {
+public class Task3 {
 
     public static void main(String[] args) {
         int [] b = new int[10];

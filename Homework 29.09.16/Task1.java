@@ -1,10 +1,10 @@
 import java.util.Arrays;
 import java.util.Random;
 
-public class Main {
+public class Task1 {
 
     public static void main(String[] args) {
-        int a[] = new int[10];
+    	int a[] = new int[10];
         fillArray(a);
         System.out.println(Arrays.toString(a));
         boolean flag;
@@ -25,11 +25,10 @@ public class Main {
         System.out.println(Arrays.toString(a));
     }
 
-    public static int[] fillArray (int a[]){
+    public static void fillArray (int a[]){
         Random random = new Random();
         for (int i = 0; i<a.length; i++) {
             a[i] = random.nextInt(100);
         }
-        return a;
     }
-}
+}    	
